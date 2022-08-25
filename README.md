@@ -1,2 +1,2 @@
 # Car-Rent
-Treino de Full-Stack Web &lt;PHP>.
+Treino de Front-End com HTML e CSS &lt;PHP>.
