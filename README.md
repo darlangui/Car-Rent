@@ -7,7 +7,7 @@ Treino de Front-End com HTML e CSS.
 ![Badge License: MIT](https://img.shields.io/github/license/darlangui/e-commerce?style=for-the-badge)
 
 ### Projeto
-<br>
+
 #### Navbar
 
 ![Nav Bar Top](https://user-images.githubusercontent.com/71740181/186671270-355c5ebe-52f8-4ade-a8e4-ad91ab27c3f6.svg)
