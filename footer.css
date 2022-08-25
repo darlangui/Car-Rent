@@ -1,0 +1,93 @@
+footer {
+    height: 480px;
+    width: 1440px;
+    padding: 80px 60px 60px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .vision{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(19, 19, 19, 0.6);
+}
+
+footer .vision .logo-vision{
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+}
+
+footer .vision .logo-vision span{
+    font-size: 1.5rem;
+    word-break: break-all;
+    margin-top: 0;
+}
+
+footer .vision .logo-vision .logo{
+    width: 148px;
+    height: 44px;
+    margin-bottom: 16px;
+}
+
+footer .vision .about{
+    width: 152px;
+    height: 244px;
+    margin-right: 60px;
+}
+
+footer .vision  .community{
+    width: 152px;
+    height: 244px;
+    margin-right: 60px;
+}
+
+footer .vision .social{
+    width: 152px;
+    height: 244px;
+}
+
+footer .vision h2{
+    font-size: 2rem;
+    color: var(--secondary-regular);
+    font-weight: 700;
+}
+
+footer .vision span{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+footer .vision .right{
+    display: flex;
+}
+
+footer .vision .right .info{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 24px;
+}
+
+footer .division{
+    height: 0px;
+    width: 100%;
+    border: 1px solid rgba(19, 19, 19, 0.16);
+}
+
+footer .last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px; 
+}
+
+footer .last h2{
+    font-size: 1.6rem;
+}
+
+footer .last span{
+    font-size: 1.4rem;
+    margin-left: 60px;
+    color: var(--secondary-regular);
+    font-weight: 700;
+}

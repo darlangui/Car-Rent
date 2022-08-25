@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Plus Jakarta Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+ 
+html{
+
+    font-size: 62.5%;
+
+    --information-regular: #54A6FF;
+    --information-dark-600: #3D81DB;
+    --information-dark-700: #2A60B7;
+    --information-dark-800: #1A4393;
+    --information-dark-900: #102E7A;
+
+    --information-ghost-400: #7EC2FF;
+    --information-ghost-300: #98D3FF;
+    --information-ghost-200: #BAE5FF;
+    --information-ghost-100: #DCF3FF;
+
+    --primary-regular: #3563E9;
+    --primary-dark-600: #264BC8;
+    --primary-dark-700: #1A37A7;
+    --primary-dark-800: #102587;
+    --primary-dark-900: #0A196F;
+
+    --primary-ghost-400: #658DF1;
+    --primary-ghost-300: #85A8F8;
+    --primary-ghost-200: #AEC8FC;
+    --primary-ghost-100: #D6E4FD;
+
+    --secondary-regular: #1A202C;
+    --secondary-dark-600: #131825;
+    --secondary-dark-700: #0D121F;
+    --secondary-dark-800: #080C19;
+    --secondary-dark-900: #040815;
+
+    --secondary-ghost-400: #596780;
+    --secondary-ghost-300: #90A3BF;
+    --secondary-ghost-200: #C3D4E9;
+    --secondary-ghost-100: #E0E9F4;  
+
+    --auxiliar-white: #ffffff;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--secondary-regular);
+}
+
+h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 4.8rem;
+    line-height: 120%;
+    font-weight: bold;
+}
+  
+h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 3.2rem;
+    line-height: 130%;
+    font-weight: bold;
+}
+  
+h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 130%;
+    font-weight: bold;
+}
+
+button {
+    width: 50px;
+    height: 56px;
+    border-radius: 4px;
+    border: 0;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 135%;
+  
+    transition:  0.5s;
+    cursor: pointer;
+    
+}
+
+button.primary {
+    background-color: var(--primary-regular);
+    color: var(--auxiliar-white);
+  }
+  
+button.primary:hover {
+    background-color: var(--primary-dark-600);
+}
+
+button.secondary {
+    background-color: var(--information-regular);
+    color: var(--auxiliar-white);
+  }
+  
+button.secondary:hover {
+    background-color: var(--information-dark-600);
+}

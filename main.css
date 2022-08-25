@@ -1,0 +1,437 @@
+main {
+    background-color: #F6F7F9;
+    width: 100%;
+    height: 2120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .banners {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+main .banners .left{
+    height: 360px;
+    width: 640px;
+    margin: 0px 16px 0px 0px;
+    background: url('assets/ads1.svg');
+    border-radius: 10px;
+    color: var(--auxiliar-white);
+    padding: 24px 0px 0px 24px;
+}
+
+main .banners .left .read{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 284px;
+    height: 224px;
+}
+
+main .banners .left .read h2{
+    line-height: 160%;
+    margin-bottom: 16px;
+}
+
+main .banners .left .read button{
+    margin-top: 20px;
+    background-color: var(--primary-regular);
+    width: 120px;
+    height: 44px;
+
+    color: var(--auxiliar-white);
+    letter-spacing: -0.02em;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+main .banners .left .read button:hover{
+    background-color: var(--primary-dark-600);
+}
+
+main .banners .right{
+    height: 360px;
+    width: 640px;
+    margin: 0px 0px 0px 16px;
+    background: url('assets/ads2.svg');
+    border-radius: 10px;
+
+    color: var(--auxiliar-white);
+    padding: 24px 0px 0px 24px;
+}
+
+main .banners .right .read{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 284px;
+    height: 224px;
+}
+
+main .banners .right .read h2{
+    line-height: 160%;
+    margin-bottom: 16px;
+}
+
+main .banners .right .read button{
+    margin-top: 20px;
+    background-color: var(--information-regular);
+    width: 120px;
+    height: 44px;
+
+    color: var(--auxiliar-white);
+    letter-spacing: -0.02em;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+main .banners .right .read button:hover{
+    background-color: var(--information-dark-600);
+}
+
+main .pickdrop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+main .pickdrop .left{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0px 0px 0px;
+    justify-content: center;
+    width: 582px;
+    height: 132px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 44px;
+}
+
+main .pickdrop .right{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0px 0px 0px;
+    justify-content: center;
+    width: 582px;
+    height: 132px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 44px;
+}
+
+main .pickdrop .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-regular);
+    border-radius: 10px;
+}
+
+main .pickdrop .center:hover{
+    background-color: var(--primary-dark-600);
+}
+
+main .pickdrop .left .radio label{
+    color: var(--secondary-regular);
+    margin: 0px 0px 0px 8px;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+main .pickdrop .right .radio label{
+    color: var(--secondary-regular);
+    margin: 0px 0px 0px 8px;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+main .pickdrop .right .radio{
+    width: 486px;
+    height: 30px;
+}
+
+main .pickdrop .right .filter{
+    display: flex;
+    justify-content: space-between;
+    width: 486px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+main .pickdrop .right .filter .filter-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 126px;
+    height: 48px;
+}
+
+
+main .pickdrop .right .filter .filter-item .select {
+    display: flex;
+}
+main .pickdrop .right .filter .filter-item .select .custom-select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    width: 126px;
+    height: 20px;
+    border: none;
+
+    color: var(--secondary-ghost-300);
+}
+
+main .pickdrop .left .radio{
+    width: 486px;
+    height: 30px;
+}
+
+main .pickdrop .left .filter{
+    display: flex;
+    justify-content: space-between;
+    width: 486px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+main .pickdrop .left .filter .filter-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 126px;
+    height: 48px;
+}
+
+main .pickdrop .left .filter .filter-item .select {
+    display: flex;
+}
+
+main .pickdrop .left .filter .filter-item .select .custom-select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    width: 126px;
+    height: 20px;
+    border: none;
+
+    color: var(--secondary-ghost-300);
+}
+
+main .cars{
+    width: 1312px;
+    height: 1356px;
+    margin-top: 36px;
+}
+
+main .cars .popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 452px;
+}
+
+main .cars .popular .all-items{
+    width: 1312px;
+    height: 44px;
+    padding: 10px 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: var(--secondary-ghost-300);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+main .cars .popular .all-items a{
+    color: var(--primary-regular);
+}
+
+main .cars .popular .cars-popular{
+    width: 1312px;
+    height: 388px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .card{
+    width: 304px;
+    height: 388px;
+    margin-top: 20px;
+
+    padding: 24px;
+    border-radius: 10px;
+    background-color: var(--auxiliar-white);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+main .card .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+main .card h3{
+    font-size: 1.7rem;
+    color: var(--secondary-regular);
+    font-weight: 700;
+    line-height: 150%;
+}
+
+main .card span{
+    color: var(--secondary-ghost-300);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+main .card .top .like{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+main .card .cars-photo{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    height: 72px;
+}
+
+main .card .specification{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .card .specification .spec-gas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 58px;
+    height: 24px;
+}
+
+main .card .specification .spec-manual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 76px;
+    height: 24px;
+}
+
+main .card .specification .spec-people{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    height: 24px;
+}
+
+main .card .money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    margin-top: 24px;
+}
+
+main .card .money .informoney{
+    width: 116px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .card .money .informoney .infomoney{
+    color: var(--secondary-regular);
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+main .card .money .informoney .ant{
+    text-decoration-line: line-through;
+}
+
+main .card .money button{
+    width: 116px;
+    height: 44px;
+    border-radius: 4px;
+    background: var(--primary-regular);
+    color: var(--auxiliar-white);
+    letter-spacing: -0.02em;
+    font-size: 1.6rem;
+    font-weight: 600;
+} 
+
+main .card button:hover{
+    background: var(--primary-dark-600);
+} 
+
+main .cars .recommended{
+    width: 100%;
+    height: 872px;
+    margin-top: 32px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main .cars .recommended .cars-recomendation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .cars .recommended .all-items{
+    width: 100%;
+    height: 44px;
+    padding: 10px 20px;
+
+    color: var(--secondary-ghost-300);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+main .cars .recommended .show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
+main .cars .recommended .show .showbutton{
+    width: 156px;
+    height: 44px;
+    border-radius: 4px;
+    background: var(--primary-regular);
+    color: var(--auxiliar-white);
+    letter-spacing: -0.02em;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+main .cars .recommended .show span{
+    color: var(--secondary-ghost-300);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+
+

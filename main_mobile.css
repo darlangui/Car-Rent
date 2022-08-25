@@ -1,0 +1,226 @@
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px 0px 24px;
+
+    background-image: linear-gradient(var(--auxiliar-white) 148px, #f3f3f3 100%);
+}
+
+main .banner{
+    display: flex;
+    flex-direction: column;
+
+    padding: 16px;
+    margin-top: 32px;
+    width: 327px;
+    height: 232px;
+
+    color: var(--auxiliar-white);
+    background-image: url("assets/ads_mobile.svg");
+}
+
+main .banner h2{
+    font-size: 1.5rem;
+
+    width: 240px;
+    height: 20px;
+
+    margin-bottom: 16px;
+}
+
+main .banner span{
+    font-size: 1.1rem;
+    
+    width: 216px;
+    height: 38px;
+
+    margin-bottom: 16px;
+}
+
+main .banner button{
+    background-color: var(--primary-regular);
+    width: 128px;
+    height: 44px;
+
+    color: var(--auxiliar-white);
+    letter-spacing: -0.02em;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+main .banner button:hover{
+    background-color: var(--primary-dark-600);
+}
+
+main .pickdrop{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .pickdrop .pick{
+    width: 327px;
+    height: 120px;
+    padding: 16px;
+
+    border-radius: 10px;
+    background-color: var(--auxiliar-white);  
+}
+
+main .pickdrop .drop{
+    width: 327px;
+    height: 120px;
+    padding: 16px;
+
+    border-radius: 10px;
+    background-color: var(--auxiliar-white);
+}
+
+main .pickdrop .center{
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+
+main .pickdrop .center button{
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--primary-regular);
+    border-radius: 10px;
+}
+
+
+main .pickdrop .center button:hover{
+    background-color: var(--primary-dark-600);
+}
+
+
+main .pickdrop .option{
+    display: flex;
+    flex-direction: column;
+}
+
+main .pickdrop input{
+    width: 16px;
+    height: 16px;
+}
+
+main .pickdrop span{
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    margin-left: 8px;
+}
+
+main .pickdrop .label{
+    display: flex;
+    align-items: center;
+}
+
+main .pickdrop .select{
+    width: 295px;
+    height: 44px;
+
+    margin-top: 24px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+main .pickdrop .select .location{
+    width: 76px;
+
+}
+
+main .pickdrop .select .date{
+    width: 87px;   
+}
+
+main .pickdrop .select .time{
+    width: 52px;
+}
+
+main .pickdrop .select select{
+    border: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+    color: var(--secondary-ghost-300);
+
+    margin-top: 8px;
+}
+
+main .pickdrop .op{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+main .pickdrop .op span{
+   margin-left: 0px;
+}
+
+main .popular{
+    height: 286px;
+    width: 100%;
+
+    margin-top: 32px;
+}
+
+main .popular .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .popular .top span{
+    color: var(--secondary-ghost-300);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+main .popular .top .all span{
+    color: var(--primary-regular);
+}
+
+main .popular .cards{
+    margin-top: 20px;
+
+    height: 286px;
+    width: 100%;
+
+    display: flex;
+}
+
+main .card{
+    height: 286px;
+    width: 240px;
+
+    border-radius: 10px;
+    background-color: var(--auxiliar-white);
+
+    padding: 16px;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+
+input[type=checkbox]{
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+}
