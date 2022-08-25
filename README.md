@@ -1,4 +1,4 @@
-![morent](https://user-images.githubusercontent.com/71740181/186670298-5162a0b9-ea66-4b48-8758-c0e9fd66a09a.svg)
+![morent](https://user-images.githubusercontent.com/71740181/186670464-2c5da947-9937-4dfb-b6f8-e3e92df7dea8.svg)
 
 ### Descrição do Projeto
 
